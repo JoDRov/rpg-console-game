@@ -94,6 +94,7 @@ function turnoEnemigo(atacante: any, turno: boolean): boolean{
             turno = true
             break
     }  
+    readlineSync.question("PULSA ENTER PARA CONTINUAR")
     return turno
 }
 
